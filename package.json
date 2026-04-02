@@ -1,0 +1,20 @@
+{
+  "name": "openrouter-free-code",
+  "version": "1.0.0",
+  "description": "Code generation using OpenRouter with StepFun models",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": ["openrouter", "stepfun", "code-generation", "ai"],
+  "author": "Thibault",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  }
+}
